@@ -4,15 +4,18 @@ import React, {Component} from 'react';
 
 class Navigation extends Component {
 render() {
+   const sections = ['Home', 'About', 'Portfolio', 'Contact'];
+   const navLinks = sections.map( section => {
+     return (
+       <li><a href={"#" + section}>{section}</a></li>
+     )
+   });
     return (
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
+        {navLinks} 
       </ul>
-      <h2 className="logo">My porfolio</h2>
+      <h2 className="logo">{this.props.logoTilte}</h2>
     </nav>
   );
 }
