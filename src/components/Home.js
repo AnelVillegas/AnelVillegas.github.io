@@ -11,8 +11,11 @@ render() {
    
     return (
         <div className="home"style= {myStyles}>
+          <div className ="rectangle">
             <h1>{this.props.title}</h1>
             <p>Elaine S.Dalton</p>
+          </div>  
+        
             <a href="#button">{this.props.button}</a>
         </div>
 

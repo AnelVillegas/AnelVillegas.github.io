@@ -8,7 +8,7 @@ render() {
   return (
    <div>
    <Navigation logoTilte="My Portfolio"/>
-   <Home title="If you desire to make a difference in the world, you must be different" button="About"/>
+   <Home title="If you desire to make a difference in the world, you must be different." button="About"/>
    </div>
   );
 }

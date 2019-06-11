@@ -34,21 +34,35 @@ nav ul li a {
 
 }
 .home h1{
-  background: -webkit-linear-gradient(left, gray , black, gray);
-   background: -o-linear-gradient(right,gray , black, gray);
-   background: -moz-linear-gradient(right, gray , black, gray);
-   background: linear-gradient(to right,gray , black, gray); 
-  -webkit-background-clip: text;
+   background: -webkit-linear-gradient(left, gray , black, gray);
+   background: -o-linear-gradient(right, gray , black, gray);
+   background: -moz-linear-gradient(right, gray, black, gray);
+   background: linear-gradient(to right,gray , black, gray);
+margin: 1rem;
+   color:#505050;
+   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
   margin: 0;
   font-size:  3rem;
   text-align: center;
+  padding-right: 200px;
+  padding-left: 200px;
 }
 
 .home p{
-  color:#DADADD;
+  color: white;
   font-weight: 700;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   padding-left: 800px;
   font-family: 
+}
+
+.rectangle {
+
+  background: rgba(255,255,255, 0.5);
+  margin-right: 180px;
+  margin-left: 180px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #ddd;
+
 }
