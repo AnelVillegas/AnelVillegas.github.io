@@ -3,7 +3,7 @@ import Background from './images/background-paisaje.jpg';
 
 const myStyles={
     backgroundImage: `url( ${Background} )`,
-    height: '80vh',
+    height: '100vh',
     backgroundSize: 'cover'
 }
 class Home extends Component {
@@ -15,7 +15,6 @@ render() {
             <h1>{this.props.title}</h1>
             <p>Elaine S.Dalton</p>
           </div>  
-        
             <a href="#button">{this.props.button}</a>
         </div>
 

@@ -30,7 +30,7 @@ nav ul li a {
 .home{
   margin:0 auto;
   text-align: center;
-  padding-top: 300px;
+  padding-top: 200px;
 
 }
 .home h1{
@@ -50,11 +50,11 @@ margin: 1rem;
 }
 
 .home p{
-  color: white;
-  font-weight: 700;
-  font-size: 1.5rem;
+  color: black;
+  font-weight: 600;
+  font-size: 1rem;
   padding-left: 800px;
-  font-family: 
+  margin-bottom:50px;
 }
 
 .rectangle {
@@ -64,5 +64,39 @@ margin: 1rem;
   margin-left: 180px;
   border-radius: 10px;
   box-shadow: 0 0 15px #ddd;
-
 }
+
+.home a{
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,.1);
+  font-weight:600;
+  font-size: 1.5rem;
+  color: rgba(255, 0, 150, 1);;
+  padding: 1.25rem 2.5rem;
+  border-radius: 5px;
+}
+
+.infoAbout{
+  background-color: #e5dcd7;
+}
+
+.clearfix{
+  padding-top: 80px;
+}
+.infoAbout h3{
+  font-size:25px;
+  font-weight: 400;
+}
+
+.description {
+  background: rgba(0,0,0, 1);
+  margin-right: 325px;
+  margin-left: 50px;
+  margin-top: 75px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #ddd;
+  color: #e5dcd7;
+  text-align: justify;
+  
+}
+
+
