@@ -1,21 +1,18 @@
-import React, {Component} from 'react';
-import Background from './images/background-paisaje.jpg';
-
-const myStyles={
-    backgroundImage: `url( ${Background} )`,
-    height: '100vh',
-    backgroundSize: 'cover'
-}
+import React, {Component, Fragment} from 'react';
+import flower from './images/flower.png';
 class Home extends Component {
 render() {
    
     return (
-        <div className="home"style= {myStyles}>
+        <div className="home">
+          <Fragment className="flower">
+          <img src={flower} alt=""  className="float-left mr-1 rounded-circle" ></img>
+          </Fragment>
           <div className ="rectangle">
             <h1>{this.props.title}</h1>
             <p>Elaine S.Dalton</p>
           </div>  
-            <a href="#button">{this.props.button}</a>
+            <a className= "btnAbout" href="#button">{this.props.button}</a>
         </div>
 
     )

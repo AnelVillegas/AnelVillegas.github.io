@@ -7,7 +7,7 @@ render() {
    const sections = ['Home', 'About Me', 'Portfolio', 'Contact'];
    const navLinks = sections.map( section => {
      return (
-       <li><a href={"#" + section}>{section}</a></li>
+       <li><a className="menu" href={"#" + section}>{section}</a></li>
      )
    });
     return (
