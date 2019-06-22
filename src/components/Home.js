@@ -6,7 +6,7 @@ render() {
     return (
         <div className="home">
           <Fragment className="flower">
-          <img src={flower} alt=""  className="float-left mr-1 rounded-circle" ></img>
+          <img src={flower} alt=""  className="float-left mr-2 rounded-circle" ></img>
           </Fragment>
           <div className ="rectangle">
             <h1>{this.props.title}</h1>

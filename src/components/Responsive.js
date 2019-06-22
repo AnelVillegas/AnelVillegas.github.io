@@ -1,19 +1,16 @@
 import React from 'react';
 import MediaQuery from 'react-responsive';
+
  
 const Responsive = () => (
   <div>
     <div>Device Test!</div>
-    <MediaQuery query="(min-device-width: 1224px)"> {
-
-    }
+    <MediaQuery query="(min-device-width: 1224px)"> 
       <div>You are a desktop or laptop</div>
       </MediaQuery>
 
 
-      <MediaQuery query="(min-device-width: 768px) and (max-device-width:1024px">{
-
-      }
+      <MediaQuery query="(min-device-width: 768px) and (max-device-width:1024px)">
         <div>You are sized like a tablet </div>
       </MediaQuery>
 

@@ -12,7 +12,7 @@ class AboutMe extends Component{
                 <h2>HELLO !</h2>
                 <h3>My name is Anel Villegas. I´m based in Guadalajara, Jalisco.
                 I am studiying for become a front-end developer, at Laboratoria bootcamp, also I´m a graduated Industrial Engineer, I enjoy 
-                Physics and Matemathics; and now codeing too.
+                Physics and Matemathics; and now coding too.
                 I think women have a lot of good things to contribute to the technology world. 
                 <br></br> </h3>
               </div>
