@@ -11,7 +11,10 @@ import Contact from './components/Contact';
 
 const myStyles={
     backgroundImage: `url( ${Background} )`,
-    
+    backgroundAttachment: `fixed`,
+    backgroundRepeat: `norepeat`,
+    backgroundSize: `cover`,
+    backgroundPosition:`center`,
 }
 
 class App extends Component {
@@ -21,10 +24,10 @@ render() {
   
     <div className="home"style= {myStyles}>
    <Navigation logoTilte="My Portfolio" />
-   <Home title="If you desire to make a difference in the world, you must be different." button="About Me"/>
+   <Home title="If you desire to make a difference in the world, you must be different." title2="Elaine S.Dalton" button="About Me"/>
    <AboutMe button="Projects"/>
    <Projects  button="Contact"/>
-   <Contact title="Thanks for reading. Undefined is not a function"   button="Home"/>
+   <Contact   button="Home"/>
    </div>
    </div>
   );

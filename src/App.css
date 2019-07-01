@@ -5,9 +5,11 @@
   margin-right: 20px;
 }
  .navbar{
-   background-color: black;
+  background-color: black;
  }
-
+ .sticky-top{
+  position: sticky;
+ }
 
 /*Home*/
 .home {
@@ -40,7 +42,8 @@ margin: 1rem;
   color: black;
   font-weight: 600;
   font-size: 1rem;
-  padding-left: 800px;
+  padding-left: 700px;
+  padding-right:100px;
   margin-bottom:50px;
   font-family: 'Charmonman', cursive;
 }
@@ -93,10 +96,19 @@ img.float-left {
   font-family: 'Arima Madurai', cursive;
   
 }
+
+
+/*Projects*/
+.projectcard{
+  padding-right:15px;
+  padding-left:15px;
+  padding-top:15px;
+  padding-bottom:15px;
+  margin-right:25px;
+  margin-left:25px;
+}
 /*Projects and conatct*/
 .content {
-  /*background: rgba(0,0,0, 1);*/
- 
   margin-right: 50px;
   margin-left: 50px;
   margin-top: 50px;
@@ -110,6 +122,16 @@ img.float-left {
   
 }
 
+p.technicalskills{
+  font-size: 2rem;
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-between;
+ 
+  margin: auto
+}
+
+/*Contact*/
 .endrectangle {
 
   background: rgba(255,255,255, 0.5);
@@ -130,12 +152,31 @@ img.float-left {
  padding-right: 5px;
 }
 
-a.homebtn{
-  margin-bottom: 100px;
-
+.social-links{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
 }
 
-/*Projects*/
+.social-links i{
+  color:white;
+}
+
+h1.a{
+  padding-top:20px;
+  padding-bottom:10px;
+}
+
+h1.b{
+  padding-top:10px;
+  padding-bottom:20px;
+}
+
+.homebtn{
+  margin-bottom: 100px;
+}
+
 
 
 

@@ -1,67 +1,56 @@
 import React, {Component} from 'react';
-import { Container, Row, Col, Card, Button, Image, Accordion }  from 'react-bootstrap';
+import {Card, Button, CardGroup}  from 'react-bootstrap';
 import datalovers from './images/datalovers.png';
-
+import visitors from './images/visitors.png';
+import burguerqueen from './images/burguerqueen.png';
 
 class Projects extends Component {
     render() {
         return(
-            <div className="infoProjects">
-            <div className="clearfix"></div> 
+         <div className="infoProjects">
+           <div className="clearfix"></div> 
             <div className="content">
                 <h2>SOME OF MY PROJECTS</h2>
-                <div>
-                <Container>
-                <Row>
-                    <Col xs={6} md={4}>
-                    <Image src={datalovers} height={165} rounded />
-                    <Accordion defaultActiveKey="0">
-                    <Card>
-                        <Card.Header>
-                        <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                            Data lovers
-                        </Accordion.Toggle>
-                        </Card.Header>
-                        <Accordion.Collapse eventKey="0">
-                        <Card.Body>Hello! I'm the body</Card.Body>
-                        </Accordion.Collapse>
-                    </Card>
-                    </Accordion>
-                    </Col>
-                    <Col xs={6} md={4}>
-                    <Image src="holder.js/171x180" rounded />
-                    <Accordion defaultActiveKey="0">
-                    <Card>
-                        <Card.Header>
-                        <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                            Visitors
-                        </Accordion.Toggle>
-                        </Card.Header>
-                        <Accordion.Collapse eventKey="0">
-                        <Card.Body>Hello! I'm the body</Card.Body>
-                        </Accordion.Collapse>
-                    </Card>
-                    </Accordion>
-                    </Col>
-                    <Col xs={6} md={4}>
-                    <Image src="holder.js/171x180" rounded />
-                    <Accordion defaultActiveKey="0">
-                    <Card>
-                        <Card.Header>
-                        <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                            Burguer Queen!
-                        </Accordion.Toggle>
-                        </Card.Header>
-                        <Accordion.Collapse eventKey="0">
-                        <Card.Body>Hello! I'm the body</Card.Body>
-                        </Accordion.Collapse>
-                    </Card>
-                    </Accordion>
-                    </Col>
-                </Row>
-                </Container>
+                <CardGroup>
+                <Card className="projectcard">
+                <Card.Img variant="top" src={datalovers}/>
+                <Card.Body>
+                    <Card.Title>Datalovers</Card.Title>
+                    <div>
+                   Project about the characters of the Pokemon Go game. Managing the API of the characters
+                   and making filtered by some parameters.
+                   </div>
+                    <Button variant="dark" color="black">Go somewhere</Button>
+                </Card.Body>
+                </Card>
+                <Card className="projectcard" >
+                <Card.Img variant="top" src={visitors}/>
+                <Card.Body>
+                    <Card.Title>Visitors</Card.Title>
+                    <div>
+                   Project about the register of visitors system of a coworking in order to let know 
+                   the coworkers by mail when thay have a visit. Firebase is used for the administration of data.   
+                   </div>
+                    <Button variant="dark">Go somewhere</Button>
+                </Card.Body>
+                </Card>
+                <Card className="projectcard">
+                <Card.Img variant="top" src={burguerqueen}/>
+                <Card.Body>
+                    <Card.Title>Burguer Queen</Card.Title>
+                    <div>
+                   Project about the system of capturing the orders in a fast food restaurant, 
+                   coordinating the waiters work and the kintche work. Firebase is used for administration the orders and menu.  
+                   </div>
+                   
+                    <Button variant="dark">Go somewhere</Button>
+                </Card.Body>
+                </Card>
+                </CardGroup>
+                <hr/>
+                <p className="technicalskills">HTML/CSS | JavaScript | React | Bosstrap | GitHub   </p> 
 
-                </div>
+                
                
             </div>
             <a className= "Contactbtn" href="#button">{this.props.button}</a>

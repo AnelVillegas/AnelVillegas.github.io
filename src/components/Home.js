@@ -10,7 +10,7 @@ render() {
           </Fragment>
           <div className ="rectangle">
             <h1>{this.props.title}</h1>
-            <p>Elaine S.Dalton</p>
+            <p>{this.props.title2}</p>
           </div>  
             <a className= "btnAbout" href="#button">{this.props.button}</a>
         </div>
