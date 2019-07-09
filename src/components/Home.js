@@ -4,7 +4,7 @@ class Home extends Component {
 render() {
    
     return (
-        <div className="home">
+        <section  id="home" className="home">
           <Fragment className="flower">
           <img src={flower} alt=""  className="float-left mr-2 rounded-circle" ></img>
           </Fragment>
@@ -12,8 +12,7 @@ render() {
             <h1>{this.props.title}</h1>
             <p>{this.props.title2}</p>
           </div>  
-            <a className= "btnAbout" href="#button">{this.props.button}</a>
-        </div>
+        </section>
 
     )
 }

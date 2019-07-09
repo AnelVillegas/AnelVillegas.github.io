@@ -5,7 +5,7 @@ class AboutMe extends Component{
 
     render() {
         return(
-            <div className="infoAbout">
+            <section  id="infoAbout" className="infoAbout">
             <div className="clearfix">
             <img src={my_image} alt=""  className="float-right mr-2 rounded-circle" ></img>
                  <div className="description">
@@ -18,8 +18,8 @@ class AboutMe extends Component{
               </div>
               
             </div>
-            <a className= "Projectsbtn" href="#button">{this.props.button}</a>
-            </div>  
+            
+            </section>  
             
         
             

@@ -7,7 +7,7 @@ import burguerqueen from './images/burguerqueen.png';
 class Projects extends Component {
     render() {
         return(
-         <div className="infoProjects">
+         <section id="infoProjects" className="infoProjects">
            <div className="clearfix"></div> 
             <div className="content">
                 <h2>SOME OF MY PROJECTS</h2>
@@ -48,13 +48,13 @@ class Projects extends Component {
                 </Card>
                 </CardGroup>
                 <hr/>
-                <p className="technicalskills">HTML/CSS | JavaScript | React | Bosstrap | GitHub   </p> 
+                <p className="technicalskills"> HTML/CSS | JavaScript | React | Boostrap | GitHub   </p> 
 
                 
                
             </div>
-            <a className= "Contactbtn" href="#button">{this.props.button}</a>
-        </div>
+            
+        </section>
         )
 
     }

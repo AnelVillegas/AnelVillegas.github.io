@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 
 
 
+
 class Navigation extends Component {
 render() {
   return(
@@ -16,10 +17,10 @@ render() {
                 <Navbar.Toggle  aria-controls='basic-navbar-nav' />
                 <Navbar.Collapse id='basic-navbar-nav'>
                     <Nav   className='auto'>
-                        <Nav.Link className="btnhome"  href='/Home'>Home</Nav.Link>
-                        <Nav.Link className="btnhome" href='/AboutME'>About Me</Nav.Link>
-                        <Nav.Link className="btnhome" href='/Projects'>My Projects</Nav.Link>
-                        <Nav.Link className="btnhome" href='/contact'>Let’s talk!</Nav.Link>
+                        <Nav.Link className="btnhome" href='#home'>Home</Nav.Link>
+                        <Nav.Link className="btnhome"  href='#infoAbout'>About Me</Nav.Link>
+                        <Nav.Link className="btnhome"  href='#infoProjects'>My Projects</Nav.Link>
+                        <Nav.Link className="btnhome"  href='#infoContact'>Let’s talk!</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
