@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-
+import AnelVillegas from './images/AnelVillegas.png';
 
 
 
@@ -13,7 +13,6 @@ render() {
     <div   className='navigation-container'>
    
     <Navbar sticky="top"  className='navbar'   bg='black' expand='lg' variant='dark'>
-         
                 <Navbar.Toggle  aria-controls='basic-navbar-nav' />
                 <Navbar.Collapse id='basic-navbar-nav'>
                     <Nav   className='auto'>
@@ -23,6 +22,7 @@ render() {
                         <Nav.Link className="btnhome"  href='#infoContact'>Let’s talk!</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
+                <img src={AnelVillegas} alt="..." className="float-right persBrand"></img>
             </Navbar>
         </div>
     </div>

@@ -6,9 +6,16 @@
 }
  .navbar{
   background-color: black;
+ 
  }
  .sticky-top{
   position: sticky;
+ }
+
+ .persBrand{
+   width: 100px;
+   height: 100px;
+   margin:0;
  }
 
 /*Home*/
@@ -97,7 +104,72 @@ img.float-left {
   
 }
 
+/*Skills*/
+.contentSkills{
+  background: rgba(255,255,255, 0.5);
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom:50px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #ddd;
+  color: black;
+  text-align: justify;
+  padding: 20px;
+  font-family: 'Arima Madurai', cursive;
+}
+.allSkills{
+  font-size: 20px;
+}
 
+.skills{
+font-family:'Charmonman', cursive;
+font-size: 20px;
+}
+
+.devicon-git-plain{
+  font-size: 25pt;
+}
+
+.devicon-github-plain{
+  font-size: 25pt;
+}
+
+.devicon-html5-plain{
+  font-size: 25pt;
+}
+
+.devicon-css3-plain{
+  font-size: 25pt;
+}
+
+.devicon-javascript-plain{
+  font-size: 25pt;
+}
+
+.devicon-react-original{
+  font-size: 25pt;
+}
+
+.devicon-bootstrap-plain{
+  font-size: 25pt;
+}
+
+.fas.fa-user-tie{
+  font-size: 25pt;
+}
+
+.fas.fa-book-reader{
+  font-size: 25pt; 
+}
+
+.fas.fa-people-carry{
+  font-size: 25pt;
+}
+
+.fas.fa-user-friends{
+  font-size: 25pt;
+}
 /*Projects*/
 .projectcard{
   padding-right:15px;
@@ -130,6 +202,14 @@ p.technicalskills{
  text-align:center;
   margin: auto
 }
+
+a.btn.btn-dark{
+  padding:.6rem;
+  font-size: .8rem;
+
+}
+
+
 
 /*Contact*/
 .endrectangle {
@@ -177,7 +257,8 @@ h1.b{
   padding-bottom:20px;
 }
 
-.homebtn{
+a.homebtn{
+  height: 10px;
   margin-bottom: 100px;
 }
 

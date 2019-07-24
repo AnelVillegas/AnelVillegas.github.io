@@ -9,26 +9,14 @@ class Contact extends Component {
                 <h2>CONTACT ME</h2>
                 <div className="social-links">
 
-                {/*email*/}
-                <a href="mailto:hanhelle@gmail.com">
-                 <i class="fas fa-envelope-square fa-x3 "></i>
+                {/*Resume*/}
+                <a href="https://www.dropbox.com/s/12gr6rpiaek373v/Anel%20CV.psd?dl=0" rel="noopener noreferrer" target="_blank">
+                <i className="far fa-file fa-x3"></i>
                 </a>
 
-                {/*telephone*/}
-                <a><OverlayTrigger  trigger="click" placement="right" overlay={
-                    <Popover id="popover-basic" title="Telephone">
-                        <strong>55 4091 8258</strong> 
-                    </Popover>
-                } >
-                        <Button variant="rgba(0, 0, 0, 0.8)">
-                            <i className="fas fa-mobile-alt fa-x3"></i>
-                        </Button>
-                </OverlayTrigger></a>
-
-
-                {/*Github*/}
-                <a href="https://github.com/AnelVillegas" rel="noopener noreferrer" target="_blank">
-                <i className="fab fa-github fa-x3"></i>
+                {/*email*/}
+                <a href="mailto:hanhelle@gmail.com">
+                 <i className="fas fa-envelope-square fa-x3 "></i>
                 </a>
 
                 {/*LinkedIn*/}
@@ -36,10 +24,11 @@ class Contact extends Component {
                 <i className= "fab fa-linkedin fa-x3"></i>
                 </a>
 
-                {/*Resume*/}
-                <a href="https://www.dropbox.com/s/12gr6rpiaek373v/Anel%20CV.psd?dl=0" rel="noopener noreferrer" target="_blank">
-                <i className="far fa-file fa-x3"></i>
+                {/*Github*/}
+                <a href="https://github.com/AnelVillegas" rel="noopener noreferrer" target="_blank">
+                <i className="fab fa-github fa-x3"></i>
                 </a>
+
                  
             </div>
             </div>
