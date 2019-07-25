@@ -5,7 +5,7 @@ class Skills extends Component {
     render() {
         return(
             <section  id="infoSkills" className="infoSkill">
-                <div className="clearfix"></div>
+               {/* <div className="clearfix"></div>*/}
                     <div className="contentSkills">
                         <h2>SKILLS</h2>
                     <Container>
