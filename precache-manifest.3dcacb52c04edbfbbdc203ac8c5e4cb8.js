@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b97da59935e58fd1d482baf9a5d95e9c",
+    "revision": "826416db8a2b8ffabe4b4c792edb9434",
     "url": "/index.html"
   },
   {
-    "revision": "520a79eac48e70803e98",
-    "url": "/static/css/main.0b2e20aa.chunk.css"
+    "revision": "3852492158e136986761",
+    "url": "/static/css/main.7fa668fc.chunk.css"
   },
   {
-    "revision": "ac35b1dccb065dde001d",
-    "url": "/static/js/2.e8daac93.chunk.js"
+    "revision": "3736c611d05066d49029",
+    "url": "/static/js/2.6a10d9d4.chunk.js"
   },
   {
-    "revision": "520a79eac48e70803e98",
-    "url": "/static/js/main.aa9d3fb5.chunk.js"
+    "revision": "3852492158e136986761",
+    "url": "/static/js/main.91770416.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
+  },
+  {
+    "revision": "3e56333a176345ff0a4286937501ed6e",
+    "url": "/static/media/AnelVillegasCH.3e56333a.png"
   },
   {
     "revision": "5c798ddb1defb218cd0b721dbae938b3",
