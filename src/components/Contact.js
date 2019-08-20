@@ -10,7 +10,7 @@ class Contact extends Component {
                 <div className="social-links">
 
                 {/*Resume*/}
-                <a href="https://www.dropbox.com/s/12gr6rpiaek373v/Anel%20CV.psd?dl=0" rel="noopener noreferrer" target="_blank">
+                <a className="icon" href="https://www.dropbox.com/s/wp9rdwwhe72rjcv/Anel%20English%20CV2-PDF.pdf?dl=0" rel="noopener noreferrer" target="_blank">
                 <i className="far fa-file fa-x3"></i>
                 </a>
 
